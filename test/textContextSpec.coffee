@@ -16,7 +16,7 @@ mockDep = {
 
 describe 'testContext', ->
 
-  testContext = require '../lib/testContext'
+  testContext = require '../index.js'
             
   describe 'have a createSandbox function', ->
         
